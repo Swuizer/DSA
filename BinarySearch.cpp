@@ -11,7 +11,7 @@ int binarySearch(int arr[], int size, int key){
         if(arr[mid] == key){
             return mid;
         }
-
+        
         // Go TO Right Part
         if(key > arr[mid]){
             start = mid + 1;
